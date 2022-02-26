@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "server": "node index",
+    "start": "node index",
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
   },
   "dependencies": {
